@@ -9,13 +9,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-
     "fastclick": "^1.0.6",
     "jsonp": "^0.2.1",
     "moment": "^2.18.1",
     "v-charts": "^1.2.9",
     "vue": "^2.2.2",
     "vue-avatar": "^2.0.0",
+    "vue-awesome": "^2.3.1",
     "vue-router": "^2.2.0",
     "vuex": "^2.1.1",
     "vuex-i18n": "^1.4.1",

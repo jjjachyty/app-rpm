@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!--<divider>客户关系定价</divider>-->
-  <group>
+ 
           <flexbox justify="center">
               <flexbox-item :span="4" ></flexbox-item>
 
@@ -18,7 +18,7 @@
             <x-input  type="password" placeholder="密码"  v-model="loginUser.password">
         <img slot="label" style="padding-right:10px;display:block;" src="../assets/icon/password.svg" width="24" height="24">
       </x-input>
-    </group>
+   
          <br>
      <x-button type="primary"  @click.native="logining">登录</x-button>
     <divider>@2017 重庆天健金管科技</divider>

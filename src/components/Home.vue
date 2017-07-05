@@ -12,10 +12,10 @@
     </swiper>
         <grid :rows="2">
       <grid-item link="/component/cell" label="贷款测算">
-        <img slot="icon" src="../assets/icon/ln.svg">
+        <img slot="icon" src="../assets/icon/home-ln.svg">
       </grid-item>
       <grid-item :link="{ path: '/component/cell'}" label="存款测算">
-        <img slot="icon" src="../assets/icon/dp.svg">
+        <img slot="icon" src="../assets/icon/home-dp.svg">
       </grid-item>
     </grid>
     <group>
@@ -30,8 +30,8 @@ import { Swiper, GroupTitle, SwiperItem, XButton, Divider,Panel, Group, Radio,Gr
 
 const baseList = [{
   url: 'javascript:',
-  img: 'https://static.vux.li/demo/1.jpg',
-  title: '送你一朵fua'
+  img: 'static/img/slogin.png',
+  title: '客户关系定价系统移动版上线'
 }, {
   url: 'javascript:',
   img: 'https://static.vux.li/demo/2.jpg',

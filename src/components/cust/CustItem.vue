@@ -21,10 +21,10 @@
       <div class="card-image">
        <!--<img src="static/avatar/cust/lhdc.png"/>-->
        	
-<avatar username=""
+<avatar class="avatar1" 
                 background-color="#8bc34a"
                 :size="80"
-                initials="龙湖地产"
+                initials="龙湖"
                 :rounded="false"
                 color="#fff"></avatar>
       </div>
@@ -126,7 +126,7 @@ export default {
 @import '~vux/src/styles/1px.less';
 .card {
     position: relative;
-    margin: .5rem 0 1rem 0;
+    margin: .5rem 0 .5rem 0;
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
@@ -189,7 +189,7 @@ export default {
 .content{
     padding:16px;
 }
-.cust-credit{font-size:25px;color:#4db6ac/*FF*/;text-shadow:0 0 0px currentColor,
+.cust-credit{font-size:35px;color:#4db6ac/*FF*/;text-shadow:0 0 0px currentColor,
 1px  0   1px #4db6ac,  0   1px  1px #083058,  1px  1px  1px #98c0e8,  1px  1px  1px #083058,  1px  1px  1px #487098,
 }
 
