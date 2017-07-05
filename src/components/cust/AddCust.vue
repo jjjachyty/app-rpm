@@ -48,7 +48,8 @@ export default {
     },
     data() {
         return {
-            cust: {}
+            cust: {},
+            list: [['AAA', 'B', 'C']],
         }
     }, created() {
         if (this.$store.state.editOrAdd == "edit") {
